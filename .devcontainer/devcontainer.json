@@ -1,0 +1,15 @@
+{
+	"name": "Alpine Linux",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/ash"
+	},
+	"extensions": [
+		"dbaeumer.vscode-eslint",
+		"AndrewRazumovsky.vscode-styled-jsx-languageserver",
+		"blanu.vscode-styled-jsx"
+	],
+	"postCreateCommand": "yarn install"
+}
