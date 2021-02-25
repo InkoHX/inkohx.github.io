@@ -1,10 +1,9 @@
 mod components;
 
-use yew::prelude::*;
 use crate::components::footer::Footer;
 use crate::components::hero::Hero;
+use yew::prelude::*;
 
-#[derive(Debug)]
 pub struct App;
 impl Component for App {
     type Message = ();

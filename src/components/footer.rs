@@ -87,14 +87,14 @@ impl Component for FooterLinkList {
         let title = self.props.title.as_str();
         let children = self.props.children.iter();
 
-        return html! {
+        html! {
             <div class="FooterLinkList">
                 <p class="FooterLinkListTitle">{ title }</p>
                 <ul class="FooterLinkListItems">
                     { for children }
                 </ul>
             </div>
-        };
+        }
     }
 }
 
@@ -119,7 +119,7 @@ impl Component for FooterLinkListItem {
         let text = self.props.text.as_str();
         let url = self.props.url.as_str();
 
-        return html! {
+        html! {
             <li class="FooterLinkListItem">
                 <a class="FooterLink" href={ url }>{ text }</a>
             </li>
