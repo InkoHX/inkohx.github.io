@@ -1,3 +1,6 @@
 {
-  "files.eol": "\n"
+  "[rust]": {
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false
+  }
 }

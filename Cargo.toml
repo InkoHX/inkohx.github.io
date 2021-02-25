@@ -1,0 +1,11 @@
+[package]
+name = "me"
+version = "1.0.0"
+authors = ["InkoHX <me@inkohx.dev>"]
+edition = "2018"
+license = "MIT"
+repository = "https://github.com/InkoHX/me.git"
+description = "InkoHX Homepage"
+
+[dependencies]
+yew = { git = "https://github.com/yewstack/yew.git" }
