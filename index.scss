@@ -67,6 +67,10 @@ body {
         text-decoration: none;
         color: blue;
         margin-inline-end: 3px;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
 
       .DiscordTag {
