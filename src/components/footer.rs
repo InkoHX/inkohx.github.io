@@ -49,6 +49,7 @@ impl Component for Footer {
                         <FooterLinkListItem url="https://gitlab.com/InkoHX" text="GitLab" />
                         <FooterLinkListItem url="https://qiita.com/InkoHX" text="Qiita" />
                         <FooterLinkListItem url="https://zenn.dev/inkohx" text="Zenn" />
+                        <FooterLinkListItem url="https://inkohx.dev" text="Blog" />
                     </FooterLinkList>
                     <FooterLinkList title="ソーシャルメディア">
                         <FooterLinkListItem url="https://twitter.com/InkoHX" text="Twitter" />
