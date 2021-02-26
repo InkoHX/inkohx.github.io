@@ -35,16 +35,16 @@ impl Component for Hero {
                 </div>
                 <div class="HeroFloatIconContainer">
                     <div class="HeroFloatIcons">
-                        <img class="HeroFloatIcon Git" src="/icons/git.svg" />
-                        <img class="HeroFloatIcon GitHub" src="/icons/github.svg" />
-                        <img class="HeroFloatIcon JavaScript" src="/icons/js.svg" />
-                        <img class="HeroFloatIcon NodeJS" src="/icons/nodejs.svg" />
-                        <img class="HeroFloatIcon Rust" src="/icons/rust.svg" />
-                        <img class="HeroFloatIcon Docker" src="/icons/docker.svg" />
-                        <img class="HeroFloatIcon HTML5" src="/icons/html5.svg" />
-                        <img class="HeroFloatIcon React" src="/icons/react.svg" />
-                        <img class="HeroFloatIcon VueJS" src="/icons/vuejs.svg" />
-                        <img class="HeroFloatIcon Windows10" src="/icons/windows10.svg" />
+                        <img class="HeroFloatIcon Git" src="/icons/git.svg" alt="Git" />
+                        <img class="HeroFloatIcon GitHub" src="/icons/github.svg" alt="GitHub" />
+                        <img class="HeroFloatIcon JavaScript" src="/icons/js.svg" alt="JavaScript" />
+                        <img class="HeroFloatIcon NodeJS" src="/icons/nodejs.svg" alt="Node.js" />
+                        <img class="HeroFloatIcon Rust" src="/icons/rust.svg" alt="Rust" />
+                        <img class="HeroFloatIcon Docker" src="/icons/docker.svg" alt="Docker" />
+                        <img class="HeroFloatIcon HTML5" src="/icons/html5.svg" alt="HTML5" />
+                        <img class="HeroFloatIcon React" src="/icons/react.svg" alt="React.js" />
+                        <img class="HeroFloatIcon VueJS" src="/icons/vuejs.svg" alt="Vue.js" />
+                        <img class="HeroFloatIcon Windows10" src="/icons/windows10.svg" alt="Windows10" />
                     </div>
                 </div>
             </section>
