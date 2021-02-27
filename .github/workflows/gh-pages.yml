@@ -26,5 +26,7 @@ jobs:
       uses: crazy-max/ghaction-github-pages@v2.2.0
       with:
         build_dir: dist
+        fqdn: me.inkohx.dev
+        jekyll: false
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
