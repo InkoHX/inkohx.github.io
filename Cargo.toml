@@ -7,5 +7,6 @@ license = "MIT"
 repository = "https://github.com/InkoHX/me.git"
 description = "InkoHX Homepage"
 
-[dependencies]
-yew = { git = "https://github.com/yewstack/yew.git" }
+[dependencies.yew]
+git = "https://github.com/yewstack/yew.git"
+rev = "d1f15b6f862d555023c18a48c5fb154e539be22b"
