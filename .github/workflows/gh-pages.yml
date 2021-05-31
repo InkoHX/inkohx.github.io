@@ -21,7 +21,7 @@ jobs:
     - name: Release Build
       run: trunk build --release
     - name: GitHub Pages
-      uses: crazy-max/ghaction-github-pages@v2.3.0
+      uses: crazy-max/ghaction-github-pages@v2.5.0
       with:
         build_dir: dist
         fqdn: me.inkohx.dev
