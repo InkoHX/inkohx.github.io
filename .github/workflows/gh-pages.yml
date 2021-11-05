@@ -11,7 +11,7 @@ jobs:
   pages:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2.3.5
+    - uses: actions/checkout@v2.4.0
     - name: add Target wasm32-unknown-unknown
       run: rustup target add wasm32-unknown-unknown
     - name: Install Tools
